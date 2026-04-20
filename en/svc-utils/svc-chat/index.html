@@ -3,7 +3,8 @@
 <!-- THEME DEBUG -->
 <!-- THEME HOOK: 'html' -->
 <!-- FILE NAME SUGGESTIONS:
-   ▪️ html--blog.html.twig
+   ▪️ html--svc-utils--svc-chat.html.twig
+   ▪️ html--svc-utils.html.twig
    ✅ html.html.twig
 -->
 <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/system/html.html.twig' -->
@@ -11,14 +12,14 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8" />
-<link rel="canonical" href="https://sandervancamp.be/en/blog" />
+<link rel="canonical" href="https://sandervancamp.be/en/svc-utils/svc-chat" />
 <meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="icon" href="/core/misc/favicon.ico" type="image/vnd.microsoft.icon" />
 
-    <title>Blog | Drush Site-Install</title>
+    <title>Svc Chat | Drush Site-Install</title>
     <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tdscw7" />
 <link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tdscw7" />
 <link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tdscw7" />
@@ -55,7 +56,8 @@
 <!-- THEME DEBUG -->
 <!-- THEME HOOK: 'page' -->
 <!-- FILE NAME SUGGESTIONS:
-   ▪️ page--blog.html.twig
+   ▪️ page--svc-utils--svc-chat.html.twig
+   ▪️ page--svc-utils.html.twig
    ✅ page.html.twig
 -->
 <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/page/page.html.twig' -->
@@ -120,7 +122,7 @@
       </span>
 
                       <span itemscope itemtype="http://schema.org/SiteNavigationElement">
-        <a href="/en/blog" class="hover:text-soft-grey transition duration-300 is-active" itemprop="url" data-drupal-link-system-path="blog" aria-current="page">Blog</a>
+        <a href="/en/blog" class="hover:text-soft-grey transition duration-300" itemprop="url" data-drupal-link-system-path="blog">Blog</a>
                 <meta itemprop="name" content="Blog">
       </span>
 
@@ -153,9 +155,9 @@
    ▪️ links.html.twig
 -->
 <!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/links/links--language-block.html.twig' -->
-<ul class="language-switcher-language-url flex items-center border-l border-warm-black/20 pl-6 space-x-2 text-[10px] font-bold tracking-tighter uppercase text-soft-grey"><li data-drupal-language="en" data-drupal-link-system-path="blog" class="is-active" aria-current="page"><a href="/en/blog" class="language-link [&amp;.is-active]:text-warm-black hover:text-warm-black transition duration-300 is-active" hreflang="en" data-drupal-link-system-path="blog" aria-current="page">EN</a></li>
+<ul class="language-switcher-language-url flex items-center border-l border-warm-black/20 pl-6 space-x-2 text-[10px] font-bold tracking-tighter uppercase text-soft-grey"><li data-drupal-language="en" data-drupal-link-system-path="svc-utils/svc-chat" class="is-active" aria-current="page"><a href="/en/svc-utils/svc-chat" class="language-link [&amp;.is-active]:text-warm-black hover:text-warm-black transition duration-300 is-active" hreflang="en" data-drupal-link-system-path="svc-utils/svc-chat" aria-current="page">EN</a></li>
               <span class="text-warm-black/30">/</span>
-      <li data-drupal-language="nl" data-drupal-link-system-path="blog"><a href="/nl/blog" class="language-link [&amp;.is-active]:text-warm-black hover:text-warm-black transition duration-300" hreflang="nl" data-drupal-link-system-path="blog">NL</a></li>
+      <li data-drupal-language="nl" data-drupal-link-system-path="svc-utils/svc-chat"><a href="/nl/svc-utils/svc-chat" class="language-link [&amp;.is-active]:text-warm-black hover:text-warm-black transition duration-300" hreflang="nl" data-drupal-link-system-path="svc-utils/svc-chat">NL</a></li>
       </ul>
 <!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/links/links--language-block.html.twig' -->
 
@@ -188,160 +190,25 @@
 -->
 <!-- BEGIN OUTPUT from 'core/modules/system/templates/region.html.twig' -->
   <div>
-    <div data-drupal-messages-fallback class="hidden"></div><h1 class="text-3xl sm:text-4xl md:text-5xl font-light tracking-tight mb-8 leading-[1.15]">Blog</h1>
-
+    <div data-drupal-messages-fallback class="hidden"></div>
 
 <!-- THEME DEBUG -->
 <!-- THEME HOOK: 'container' -->
 <!-- BEGIN OUTPUT from 'core/modules/system/templates/container.html.twig' -->
-<div class="space-y-8 mb-8">
+<div class="svc-chat-results prose">
 
 <!-- THEME DEBUG -->
-<!-- THEME HOOK: 'node' -->
-<!-- FILE NAME SUGGESTIONS:
-   ▪️ node--7--teaser.html.twig
-   ▪️ node--7.html.twig
-   ✅ node--article--teaser.html.twig
-   ▪️ node--article.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/node/node--article--teaser.html.twig' -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/form-element.html.twig' -->
+<div class="js-form-item form-item form-type-item js-form-type-item form-item- js-form-item- form-no-label">
+        <div class="svc-chat-answer"><ul><li><p>Explore using FileCache as an effective alternative to database caching to speed up your Drupal site, especially if your database is creating performance bottlenecks. It offers a simpler solution for sites on standard hosting. <a href="https://sandervancamp.be/en/blog/performance/your-database-slowing-down-your-drupal-site">IS YOUR DATABASE SLOWING DOWN YOUR DRUPAL SITE?</a>.</p></li><li><p>Improve the perceived speed of your website by implementing Google's Quicklink library, which proactively downloads links in the background. This helps ensure users experience faster transitions and meets expectations for instantaneous page loads. <a href="https://sandervancamp.be/en/blog/performance/mastering-perceived-performance-implementing-googles-quicklink-library-drupal">NL VERSION MASTERING PERCEIVED PERFORMANCE: IMPLEMENTING GOOGLE’S QUICKLINK LIBRARY IN DRUPAL</a>.</p></li></ul></div>
+        </div>
 
-<article
-  itemscope
-  itemtype="https://schema.org/BlogPosting"
-  class="p-6 border border-warm-black/10 rounded-xl hover:bg-warm-black/5 transition duration-300 cursor-pointer relative">
-
-  <time
-    itemprop="datePublished"
-    datetime="2026-01-13T19:16:50+01:00"
-    class="text-sm text-soft-grey mb-2 block">
-    Jan 13, 2026
-  </time>
-
-  <h3 class="text-3xl font-semibold mb-2">
-    <a
-      itemprop="url"
-      hreflang="en"
-      href="/en/blog/performance/your-database-slowing-down-your-drupal-site"
-      class="before:absolute before:inset-0">
-      <span itemprop="headline">Is Your Database Slowing Down Your Drupal Site?</span>
-    </a>
-  </h3>
-  <p class="text-soft-grey mb-4" itemprop="description">Why FileCache is the perfect &quot;set it and forget it&quot; performance upgrade for small to medium websites.</p>
-  <div class="flex flex-wrap gap-2 text-xs font-medium">
-
-    
-              <a href="/en/blog/performance" itemprop="keywords" class="px-3 py-1 rounded-full relative z-10 transition-all border border-warm-black bg-warm-black text-warm-cream hover:bg-transparent hover:text-warm-black" hreflang="en">Performance</a>
-          
-              <a href="/en/blog/cache" itemprop="keywords" class="px-3 py-1 rounded-full relative z-10 transition-all border border-soft-grey/50 text-soft-grey hover:text-warm-black hover:border-warm-black" hreflang="en">Cache</a>
-            </div>
-</article>
-
-<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/node/node--article--teaser.html.twig' -->
-
-
-
-<!-- THEME DEBUG -->
-<!-- THEME HOOK: 'node' -->
-<!-- FILE NAME SUGGESTIONS:
-   ▪️ node--6--teaser.html.twig
-   ▪️ node--6.html.twig
-   ✅ node--article--teaser.html.twig
-   ▪️ node--article.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/node/node--article--teaser.html.twig' -->
-
-<article
-  itemscope
-  itemtype="https://schema.org/BlogPosting"
-  class="p-6 border border-warm-black/10 rounded-xl hover:bg-warm-black/5 transition duration-300 cursor-pointer relative">
-
-  <time
-    itemprop="datePublished"
-    datetime="2026-01-13T08:37:07+01:00"
-    class="text-sm text-soft-grey mb-2 block">
-    Jan 13, 2026
-  </time>
-
-  <h3 class="text-3xl font-semibold mb-2">
-    <a
-      itemprop="url"
-      hreflang="en"
-      href="/en/node/6"
-      class="before:absolute before:inset-0">
-      <span itemprop="headline">Edit with Confidence in Drupal: Why Paragraphs are an Editor’s Best Friend</span>
-    </a>
-  </h3>
-  <p class="text-soft-grey mb-4" itemprop="description">Give clients the freedom to build beautiful layouts without the fear of &quot;breaking the site.&quot;</p>
-  <div class="flex flex-wrap gap-2 text-xs font-medium">
-
-    
-              <a href="/en/blog/content-ux" itemprop="keywords" class="px-3 py-1 rounded-full relative z-10 transition-all border border-warm-black bg-warm-black text-warm-cream hover:bg-transparent hover:text-warm-black" hreflang="en">Content UX</a>
-            </div>
-</article>
-
-<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/node/node--article--teaser.html.twig' -->
-
-
-
-<!-- THEME DEBUG -->
-<!-- THEME HOOK: 'node' -->
-<!-- FILE NAME SUGGESTIONS:
-   ▪️ node--2--teaser.html.twig
-   ▪️ node--2.html.twig
-   ✅ node--article--teaser.html.twig
-   ▪️ node--article.html.twig
-   ▪️ node--teaser.html.twig
-   ▪️ node.html.twig
--->
-<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/node/node--article--teaser.html.twig' -->
-
-<article
-  itemscope
-  itemtype="https://schema.org/BlogPosting"
-  class="p-6 border border-warm-black/10 rounded-xl hover:bg-warm-black/5 transition duration-300 cursor-pointer relative">
-
-  <time
-    itemprop="datePublished"
-    datetime="2026-01-12T10:53:13+01:00"
-    class="text-sm text-soft-grey mb-2 block">
-    Jan 12, 2026
-  </time>
-
-  <h3 class="text-3xl font-semibold mb-2">
-    <a
-      itemprop="url"
-      hreflang="en"
-      href="/en/blog/performance/mastering-perceived-performance-implementing-googles-quicklink-library-drupal"
-      class="before:absolute before:inset-0">
-      <span itemprop="headline">Mastering Perceived Performance: Implementing Google’s Quicklink Library in Drupal</span>
-    </a>
-  </h3>
-  <p class="text-soft-grey mb-4" itemprop="description">Speed vs. Stability: Is the Quicklink Module Right for Your Drupal Site?</p>
-  <div class="flex flex-wrap gap-2 text-xs font-medium">
-
-    
-              <a href="/en/blog/performance" itemprop="keywords" class="px-3 py-1 rounded-full relative z-10 transition-all border border-warm-black bg-warm-black text-warm-cream hover:bg-transparent hover:text-warm-black" hreflang="en">Performance</a>
-            </div>
-</article>
-
-<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/node/node--article--teaser.html.twig' -->
+<!-- END OUTPUT from 'core/modules/system/templates/form-element.html.twig' -->
 
 </div>
 
 <!-- END OUTPUT from 'core/modules/system/templates/container.html.twig' -->
-
-
-
-<!-- THEME DEBUG -->
-<!-- THEME HOOK: 'pager' -->
-<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/system/pager.html.twig' -->
-
-<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/sander_van_camp/templates/system/pager.html.twig' -->
 
 
   </div>
@@ -398,7 +265,7 @@
 
 
 
-<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"blog","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"easyResponsiveImages":{"lazyLoadingThreshold":"1250"},"user":{"uid":0,"permissionsHash":"d2fe988130b96b33024cbfb7f91d0e2ee29fbd0bb143effa52ba500522d5f225"}}</script>
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"svc-utils\/svc-chat","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"easyResponsiveImages":{"lazyLoadingThreshold":"1250"},"user":{"uid":0,"permissionsHash":"d2fe988130b96b33024cbfb7f91d0e2ee29fbd0bb143effa52ba500522d5f225"}}</script>
 <script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
 <script src="/core/misc/drupalSettingsLoader.js?v=11.3.7"></script>
 <script src="/core/misc/drupal.js?v=11.3.7"></script>
